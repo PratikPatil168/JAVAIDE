@@ -1,0 +1,255 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 29 Mar 2019 14:40:15 at https://java.com/en/download/help/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -WC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://java.com/en/download/help/ -O1 "C:\My Web Sites\help" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:40:16	Warning: 	Note: due to https://java.com remote robots.txt rules, links beginning with these path will be forbidden: /css/, /de/download/ie_manual.jsp, /en/download/inc/, /en/download/apple_manual.jsp, /en/download/help/testvm.xml, /en/download/ie_manual.jsp, /en/download/installed.jsp, /en/download/linux_manual.jsp, /en/download/solaris_manual.jsp, /en/download/windows_ie.jsp, /en/download/windows_xpi.jsp, /en/inc/, /en/img/, /im/, /images/, /inc/, /js/, /jsp_utils/, /qa/ (see in the options to disable this)
+14:41:14	Error: 	"Not Found" (404) at link https://java.com/en/download/help/ak.m (from https://java.com/en/download/help/)
+14:41:14	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:14	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:19	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:19	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:29	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:29	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:31	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:31	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:34	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:34	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:37	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:37	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:45	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:index.xml (from https://java.com/en/download/help/)
+14:41:59	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:59	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:41:59	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:41:59	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:02	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:java_crash_video_driver.xml (from https://java.com/en/download/help/java_crash_video_driver.xml)
+14:42:02	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:02	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:03	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:03	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:07	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:07	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:11	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:11	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:16	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:16	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:18	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:18	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:19	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:19	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:22	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:22	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:24	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:24	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:27	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:27	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:29	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:29	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:32	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:32	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:34	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:34	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:36	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:troubleshoot_java.xml (from https://java.com/en/download/help/troubleshoot_java.xml)
+14:42:36	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:36	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:36	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:java_printing.xml (from https://java.com/en/download/help/java_printing.xml)
+14:42:36	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:36	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:36	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:36	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:41	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:java_blocked.xml (from https://java.com/en/download/help/java_blocked.xml)
+14:42:41	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:41	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:41	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:41	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:44	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:44	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:48	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:restore_prompts.xml (from https://java.com/en/download/help/restore_prompts.xml)
+14:42:48	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:48	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:49	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:49	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:54	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:54	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:56	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:56	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:index_installing.xml (from https://java.com/en/download/help/index_installing.xml)
+14:42:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:42:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:disable_browser.xml (from https://java.com/en/download/help/disable_browser.xml)
+14:42:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:42:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:01	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:01	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:05	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:05	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:07	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:07	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:11	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:11	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:14	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:14	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:16	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:16	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:21	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:21	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:25	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:25	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:28	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:28	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:29	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:index_using.xml (from https://java.com/en/download/help/index_using.xml)
+14:43:29	Error: 	"Not Found" (404) at link https://java.com/ga/images/bg_long_subheader_gradient.gif (from https://java.com/ga/css/oldcss.css)
+14:43:29	Error: 	"Not Found" (404) at link https://java.com/ga/images/bg_long_subheader_gradient_650.gif (from https://java.com/ga/css/oldcss.css)
+14:43:29	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:29	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:29	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:error_hotspot.xml (from https://java.com/en/download/help/error_hotspot.xml)
+14:43:29	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:29	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:29	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:29	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:31	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:31	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:35	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:uninstall_java.xml (from https://java.com/en/download/help/uninstall_java.xml)
+14:43:35	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:35	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:35	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:35	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:38	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:38	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:41	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:41	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:mac_uninstall_java.xml (from https://java.com/en/download/help/mac_uninstall_java.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:error_installshield.xml (from https://java.com/en/download/help/error_installshield.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:browser_activate_plugin.xml (from https://java.com/en/download/help/browser_activate_plugin.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:enable_browser.xml (from https://java.com/en/download/help/enable_browser.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:enable_panel.xml (from https://java.com/en/download/help/enable_panel.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:jcp_security.xml (from https://java.com/en/download/help/jcp_security.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:plugin_cache.xml (from https://java.com/en/download/help/plugin_cache.xml)
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:43	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:43	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:44	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:proxy_setup.xml (from https://java.com/en/download/help/proxy_setup.xml)
+14:43:44	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:44	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:44	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:version_manual.xml (from https://java.com/en/download/help/version_manual.xml)
+14:43:44	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:44	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:44	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:jcp_securityslider.xml (from https://java.com/en/download/help/jcp_securityslider.xml)
+14:43:44	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:44	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:44	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:ie_tips.xml (from https://java.com/en/download/help/ie_tips.xml)
+14:43:44	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:44	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:44	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:appsecuritydialogs.xml (from https://java.com/en/download/help/appsecuritydialogs.xml)
+14:43:44	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:44	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:45	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:win_controlpanel.xml (from https://java.com/en/download/help/win_controlpanel.xml)
+14:43:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:45	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:45	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:mac_controlpanel.xml (from https://java.com/en/download/help/mac_controlpanel.xml)
+14:43:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:45	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:45	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:45	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:45	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:47	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:47	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:49	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:49	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:51	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:51	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:55	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:download_options.xml (from https://java.com/en/download/help/download_options.xml)
+14:43:55	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:55	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:55	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:sysreq.xml (from https://java.com/en/download/help/sysreq.xml)
+14:43:55	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:55	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:55	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:55	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:virus.xml (from https://java.com/en/download/help/virus.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:error_mixedcode.xml (from https://java.com/en/download/help/error_mixedcode.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:javascript_applet.xml (from https://java.com/en/download/help/javascript_applet.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:disable_sslv3.xml (from https://java.com/en/download/help/disable_sslv3.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:signedjar_dialog.xml (from https://java.com/en/download/help/signedjar_dialog.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:revocation_options.xml (from https://java.com/en/download/help/revocation_options.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:trusted_signed_variations.xml (from https://java.com/en/download/help/trusted_signed_variations.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:trusted_expired_variations.xml (from https://java.com/en/download/help/trusted_expired_variations.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:error_embargoed.xml (from https://java.com/en/download/help/error_embargoed.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:run_old_java.xml (from https://java.com/en/download/help/run_old_java.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:linux_uninstall.xml (from https://java.com/en/download/help/linux_uninstall.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:javafx_install.xml (from https://java.com/en/download/help/javafx_install.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:mac_install.xml (from https://java.com/en/download/help/mac_install.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:mac_java_cache.xml (from https://java.com/en/download/help/mac_java_cache.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:mac_java_update.xml (from https://java.com/en/download/help/mac_java_update.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:connect_proxy.xml (from https://java.com/en/download/help/connect_proxy.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:windows_manual_download.xml (from https://java.com/en/download/help/windows_manual_download.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:windows_offline_download.xml (from https://java.com/en/download/help/windows_offline_download.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:linux_install.xml (from https://java.com/en/download/help/linux_install.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:solaris_install.xml (from https://java.com/en/download/help/solaris_install.xml)
+14:43:57	Error: 	Duplicate entry in hts_wait_delayed() cancelled: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en -> C:/My Web Sites/help/consent.trustarc.com/notice.257e0.delayed
+14:43:57	Warning: 	link is probably looping, type unknown, aborting: consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en
+14:43:57	Error: 	"Not Found" (404) at link https://java.com/en/download/help/en_javac:Support:Help:cache_virus.xml (from https://java.com/en/download/help/cache_virus.xml)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 42 seconds : 220 links scanned, 166 files written (2895651 bytes overall) [2412242 bytes received at 10865 bytes/sec], 1414652 bytes transferred using HTTP compression in 103 files, ratio 28%, 18.7 requests per connection
+(147 errors, 97 warnings, 0 messages)

@@ -1,0 +1,1081 @@
+ 
+
+
+
+
+
+
+
+
+
+
+	
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US" xml:lang="en-US">
+
+<!-- Mirrored from java.com/en/download/help/solaris_install.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="Language" content="en-US"/>
+<meta name="ROBOTS" content="INDEX,FOLLOW"/>
+
+<title>How do I download and install Java for Solaris?</title>
+
+	<meta name="description" content="Use these simple instructions to download and install the Java Runtime Environment (JRE) for Solaris."/>
+	<meta name="keywords" content="solaris download"/>
+<meta name="date" content="2016-03-11"/>
+
+
+
+
+	
+		
+					<meta name='oracle:JRE' content='8.0'/>
+				
+
+
+
+
+	
+		
+					<meta name='oracle:OS' content='Solaris SPARC,Solaris x86'/>
+				
+
+		<meta name="oracle:articleType" content='help'/>		
+	
+		<link rel="stylesheet" media="all" type="text/css" href="../../../ga/css/oldcss.css%3bfilename_%3dUTF-8%27%27oldcss.css" />
+	
+		<script type="text/javascript" src="../../../ga/js/popUp.js%3bfilename_%3dUTF-8%27%27popUp.js"></script>
+	 
+
+
+<link rel="stylesheet" href="../../../ga/css/ga-screen.css%3bfilename_%3dUTF-8%27%27ga-screen.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="../../../ga/css/print.css%3bfilename_%3dUTF-8%27%27print.css" type="text/css" media="print" charset="utf-8"/>
+	<script async="async" type="text/javascript" src='http://consent.trustarc.com/notice?domain=oracle.com&amp;c=teconsent&amp;js=bb&amp;noticeType=bb&amp;text=true&amp;gtm=1&amp;language=en' crossorigin=""></script>
+	
+	<style type="text/css">
+  		#teconsent a {
+  			text-decoration: underline;
+  		}
+  
+  		#teconsent a:hover {
+  			text-decoration: none;
+  		}
+	</style>
+	
+	<script async src="../../../../dyn-beacon.akamaized.net/js/dyn.beacon.v4.js" id="beaconcfg" data-id='0138'></script>
+	
+</head>
+
+
+
+
+	 
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+ 
+
+
+
+
+
+
+
+	 
+	
+
+
+
+
+<body>
+	<a name="top"></a>
+	
+
+			
+		
+ 
+		
+			
+			
+			
+		 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Header/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	
+		
+	
+	<div class="jvh0">
+		<a class="jvl0" href="https://java.com/en/" title="java.com">Java.com</a>
+<p>
+<a href="https://java.com/inc/BrowserRedirect1.jsp?locale=en">Download</a>
+<a href="index.html">Help</a>
+</p>
+
+<form name="searchForm" method="get" action="https://www.oracle.com/search/results" accept-charset="utf-8" class="jvs0 jv0sv0" onsubmit="if((document.searchForm.Ntt.value == document.searchForm.Ntt.defaultValue) || (document.searchForm.Ntt.value == '')){return false;}">
+<input type="hidden" name="cat" value="javacom">
+<input type="hidden" name="Ntk" value="SI-ALL5">
+<input type="hidden" name="lang" value="en">
+<input class="bodytext" maxlength="55" name="Ntt" onfocus="if( this.value==this.defaultValue ) this.value='';" onblur="if( this.value=='' ) this.value=this.defaultValue;" size="20" title="Search" type="text" value="Search" />
+<input alt="Search" id="searchbtn" name="submit" src="../../../ga/images/jv0_search_btn.gif%3bfilename_%3dUTF-8%27%27jv0_search_btn.gif" type="image" />
+</form>
+	</div>
+	<!-- END: jWidget_C/Header/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+			
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<div class="jvc0 jvc0v0 clearfix">
+		
+	<div class="jvc0w1 clearfix">
+	    <div style="float: right;"> 
+        	<a title='Printable Version' href="solaris_install118c.html?printFriendly=true" 
+           target="printFriendlyView" onclick="openPopup('','printFriendlyView',800,650,'no',1,1,0,0,0,0); return true;"> 
+           <img src="../../../ga/im/printer.png%3bfilename_%3dUTF-8%27%27printer.png" width="15" height="14" alt='Printable Version' class="pfv"> </a> 
+    	</div> 		
+	
+		
+	<div class="jvc0w2">	
+	<h3><b>
+        How do I download and install Java for Solaris?
+    </b></h3>
+	
+		
+	
+	
+	
+
+	
+
+	
+		<hr />
+		This article applies to:
+		<ul>
+			
+				
+					<li><b>Platform(s): </b>Solaris SPARC, Solaris x86
+					</li>
+				
+			
+			
+				
+			 
+			
+				
+					<li><b>Java version(s): </b>8.0
+					</li>
+				
+				
+		</ul>
+		<hr />
+	
+	
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<h5 class="sub">Solaris System Requirements</h5>
+<p>
+See supported <a href="http://www.oracle.com/technetwork/java/javase/certconfig-2095354.html">Java 8 System Configurations</a> for information about supported platforms, operating systems, desktop managers, and browsers.
+</p>
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5><a name="download">Download</a></h5>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<img class="infoic" src="../../../ga/images/ic-info16.png%3bfilename_%3dUTF-8%27%27ic-info16.png"/>The instructions below are for installing version Java 8 Update 73 (8u73). If you are installing another version, make sure you change the version number appropriately when you type the commands at the terminal. <b>Example</b>: For Java 8u79 replace <b>8u73</b> with <b>8u79</b>. Note that, as in the preceding example, the version number is sometimes preceded with the letter <code>u</code>, and sometimes it is preceded with an underbar, for example, <code>jre1.8.0_73</code>.
+<br/><br />
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<p>You can install a JRE archive binary in any location that you can write to. It will not displace the system version of the Java platform provided by the Oracle Solaris OS.
+</p>
+<ol>
+<li>Go to <a href="https://java.com/en/">java.com </a> and click on the <b>Free Java Download</b> button.</li>
+<li>The Solaris Manual downloads page appears. Before the file can be downloaded, you must accept the license agreement. The archive binaries can be installed by anyone in any location that you can write to.</li>
+<li>
+Download the bundle.<br/></li>
+</ol>
+<p>
+The <tt>.tar.gz</tt> archive file (also called a tarball) is a file that can be simultaneously uncompressed and extracted in one step.
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5><a name="install"> Install</a></h5>
+
+<ol>
+<li>
+Change directory to the location where you would like the JRE to be installed.<br/>
+<code>cd </code><em>directory_path_name</em>
+<br/>
+For example, to install the software in the /usr/java directory:<br/>
+<code>cd /usr/java</code><br/><br /></li>
+<li>Move the <tt>.tar.gz</tt> archive binaries to the current directory.<br /><br /></li>
+
+<li>Unpack the tarball and install Java
+<br/>
+<strong>On 64-bit SPARC processors:</strong>
+<br/>
+<code>gzip -dc jre-8u73-solaris-sparcv9.tar.gz | tar xf -</code>
+<br/><br/>
+<strong>On x64/EM64T processors:</strong>
+<br/>
+<code>gzip -dc jre-8u73-solaris-x64.tar.gz | tar xf -</code>
+<br/>
+</li>
+</ol>
+<p>
+The JRE is installed in a directory called <tt>jre1.8.0_</tt><<em>version</em>> in the current directory. For example, for the JRE 8 update 73 release, the directory is named <tt>jre1.8.0_73</tt>
+</p>
+<p>
+The JRE documentation is a separate download. See <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html#docs">http://www.oracle.com/technetwork/java/javase/downloads/index.html#docs</a>.
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+	
+
+	 
+	
+		
+	
+	
+	 	
+	
+	</div><!-- /jvc0w2  -->
+	</div><!-- /jvc0w1 clearfix -->
+		
+	
+	
+		
+		<div class="jvcs0 clearfix">
+	
+		
+		
+		
+		
+			 
+			 
+		
+	
+		<div class="spsidebar">	
+		<div class="spheader"><a href='index.html'>Help Resources</a></div>
+		<ul>
+		
+		
+			
+	      		
+	   		
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+							<li><a href="index_installing.html"><b>Installing Java</b></a></li>
+						
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li id="olderVersions"><a href="https://java.com/en/download/faq/remove_olderversions.xml">Remove Older Versions</a></li>
+						
+										
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="disable_browser.html">Disable Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="index_using.html">Using Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_general.xml">General Questions</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_mobile.xml">Mobile Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/security/">Security</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/support.jsp">Support Options</a></li>
+						
+					
+				
+				
+			
+				
+					
+		</ul>
+		</div>
+		<br>
+		
+	
+			
+		
+			
+				
+					
+					
+									
+				 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<a href="http://www.prestoexperts.com/lp/java-help-3/?BanID=22489" target="_top">
+	
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+
+	
+
+
+	<img src="../../../ga/images/liveperson_banner_2014.jpg%3bfilename_%3dUTF-8%27%27liveperson_banner_2014.jpg" alt="Find expert help on Java installation and setup"  width="170"  height="134" />
+	
+</a>
+<br />
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+			
+		
+		
+		
+			
+		
+			
+	
+		</div><!--  /jvcs0 clearfix -->
+		</div><!-- /jvc0 -->
+		
+	
+	
+		
+		
+			
+	 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Footer/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	<div class="jvf0">
+		<div class="jvf0">
+
+<p>
+<a href="https://java.com/en/selectlanguage.jsp" title="Select Language">Select Language</a>
+| <a href="https://java.com/en/about/" title="About Java">About Java</a>
+| <a href="https://java.com/en/download/support.jsp" title="Support">Support</a>
+| <a href="https://java.com/en/download/faq/develop.xml" title="Developers">Developers</a>
+| <a href="https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23" onclick="return popFeedback('https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23');" id="feedback-link" title="Feedback">Feedback</a>
+<br />
+  <a href="https://www.oracle.com/html/privacy.html" title="Privacy">Privacy</a> 
+|&nbsp;<a><span id='teconsent'></span></a>&nbsp;
+| <a href="https://www.oracle.com/html/terms.html" title="Terms of Use">Terms of Use</a>
+| <a href="https://www.oracle.com/html/3party.html" title="Trademarks">Trademarks</a>
+| <a href="https://java.com/en/about/disclaimer.jsp" title="Disclaimer">Disclaimer</a>
+</p>
+<a href="https://www.oracle.com/" class="jvsun0">Oracle</a>
+</div>
+
+	</div>
+	<!-- END: jWidget_C/Footer/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+	
+	
+		
+			<!--[if gte IE 6]><!-->
+			<script src="../../../ga/js/global.js%3bfilename_%3dUTF-8%27%27global.js" type="text/javascript" charset="utf-8"></script>
+			<!-- <![endif]-->
+			
+			
+		
+	
+	
+	
+		
+		
+			
+				
+			
+			
+		
+		<script language="JavaScript">
+		<!--
+			var s_channel="javac:Support:Help";
+			var s_pageName="javac:Support:Help:solaris_install.xml";
+			var s_prop19="en_javac_Support_Help_solaris_install.html";
+			var s_charSet="UTF-8";
+		//-->
+		</script>
+		<script language="JavaScript" src="../../../ga/js/s_code_remote.js%3bfilename_%3dUTF-8%27%27s_code_remote.js"></script>
+		<script>
+			userAgent = navigator.userAgent;
+			userAgent = userAgent == null ? "" : userAgent.toLowerCase();
+			
+			if (userAgent.indexOf('mac') != -1){
+				document.getElementById("olderVersions").style.display = "none"
+			}
+		</script>
+	
+		
+	
+</body>
+
+<!-- Mirrored from java.com/en/download/help/solaris_install.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:57 GMT -->
+</html>
+
+

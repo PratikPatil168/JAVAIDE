@@ -1,0 +1,974 @@
+ 
+
+
+
+
+
+
+
+
+
+
+	
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US" xml:lang="en-US">
+
+<!-- Mirrored from java.com/en/download/help/revocation_options.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="Language" content="en-US"/>
+<meta name="ROBOTS" content="INDEX,FOLLOW"/>
+
+<title>How to configure certificate revocation checking from the Java Control Panel</title>
+
+	<meta name="description" content="Configure revocation check settings through the Java Control Panel"/>
+	<meta name="keywords" content="revocation, blocked, failed, certificate, expired"/>
+<meta name="date" content="2015-05-18"/>
+
+
+
+
+	
+		
+					<meta name='oracle:JRE' content='7.0,8.0'/>
+				
+
+
+
+
+	
+		
+					<meta name='oracle:OS' content='Solaris SPARC,Ubuntu Linux,Oracle Linux,Windows Vista,Windows ME,64-bit Windows,macOS,Windows 10,Windows 98,SLES,Windows Server 2012,Mac OS X,Solaris x86,Windows 2003,Windows 2000,Red Hat Linux,Linux,Oracle Enterprise Linux,Windows XP,Windows 2008 Server,Windows 8,Windows 7,SUSE Linux'/>
+				
+
+		<meta name="oracle:articleType" content='help'/>		
+	
+		<link rel="stylesheet" media="all" type="text/css" href="../../../ga/css/oldcss.css%3bfilename_%3dUTF-8%27%27oldcss.css" />
+	
+		<script type="text/javascript" src="../../../ga/js/popUp.js%3bfilename_%3dUTF-8%27%27popUp.js"></script>
+	 
+
+
+<link rel="stylesheet" href="../../../ga/css/ga-screen.css%3bfilename_%3dUTF-8%27%27ga-screen.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="../../../ga/css/print.css%3bfilename_%3dUTF-8%27%27print.css" type="text/css" media="print" charset="utf-8"/>
+	<script async="async" type="text/javascript" src='http://consent.trustarc.com/notice?domain=oracle.com&amp;c=teconsent&amp;js=bb&amp;noticeType=bb&amp;text=true&amp;gtm=1&amp;language=en' crossorigin=""></script>
+	
+	<style type="text/css">
+  		#teconsent a {
+  			text-decoration: underline;
+  		}
+  
+  		#teconsent a:hover {
+  			text-decoration: none;
+  		}
+	</style>
+	
+	<script async src="../../../../dyn-beacon.akamaized.net/js/dyn.beacon.v4.js" id="beaconcfg" data-id='0138'></script>
+	
+</head>
+
+
+
+
+	 
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+ 
+
+
+
+
+
+
+
+	 
+	
+
+
+
+
+<body>
+	<a name="top"></a>
+	
+
+			
+		
+ 
+		
+			
+			
+			
+		 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Header/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	
+		
+	
+	<div class="jvh0">
+		<a class="jvl0" href="https://java.com/en/" title="java.com">Java.com</a>
+<p>
+<a href="https://java.com/inc/BrowserRedirect1.jsp?locale=en">Download</a>
+<a href="index.html">Help</a>
+</p>
+
+<form name="searchForm" method="get" action="https://www.oracle.com/search/results" accept-charset="utf-8" class="jvs0 jv0sv0" onsubmit="if((document.searchForm.Ntt.value == document.searchForm.Ntt.defaultValue) || (document.searchForm.Ntt.value == '')){return false;}">
+<input type="hidden" name="cat" value="javacom">
+<input type="hidden" name="Ntk" value="SI-ALL5">
+<input type="hidden" name="lang" value="en">
+<input class="bodytext" maxlength="55" name="Ntt" onfocus="if( this.value==this.defaultValue ) this.value='';" onblur="if( this.value=='' ) this.value=this.defaultValue;" size="20" title="Search" type="text" value="Search" />
+<input alt="Search" id="searchbtn" name="submit" src="../../../ga/images/jv0_search_btn.gif%3bfilename_%3dUTF-8%27%27jv0_search_btn.gif" type="image" />
+</form>
+	</div>
+	<!-- END: jWidget_C/Header/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+			
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<div class="jvc0 jvc0v0 clearfix">
+		
+	<div class="jvc0w1 clearfix">
+	    <div style="float: right;"> 
+        	<a title='Printable Version' href="revocation_options118c.html?printFriendly=true" 
+           target="printFriendlyView" onclick="openPopup('','printFriendlyView',800,650,'no',1,1,0,0,0,0); return true;"> 
+           <img src="../../../ga/im/printer.png%3bfilename_%3dUTF-8%27%27printer.png" width="15" height="14" alt='Printable Version' class="pfv"> </a> 
+    	</div> 		
+	
+		
+	<div class="jvc0w2">	
+	<h3><b>
+        How to configure certificate revocation checking from the Java Control Panel?
+    </b></h3>
+	
+		
+	
+	
+	
+
+	
+
+	
+		<hr />
+		This article applies to:
+		<ul>
+			
+				
+					<li><b>Platform(s): </b>All Platforms
+					</li>
+				
+			
+			
+				
+			 
+			
+				
+					<li><b>Java version(s): </b>7.0, 8.0
+					</li>
+				
+				
+		</ul>
+		<hr />
+	
+	
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<p>
+In order to enhance security, the certificate revocation checking feature has been enabled by default starting in Java 7 Update 25.  Before Java will attempt to launch a signed application, the associated certificate will be validated to ensure that it has not been revoked by the issuing authority. This feature has been implemented 
+using both Certificate Revocation Lists (CRLs) and Online Certificate Status Protocol (OCSP) mechanisms.
+</p>
+<p>
+Different options are available within the Java Control Panel to configure how the revocation checks are performed for the application you are trying to run.
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4>Revocation options within the Java Control Panel</h4>
+
+<ul>
+<li>To access these options launch the Java Control Panel.</li>
+<li>Click on the <b>Advanced</b> tab.</li>
+<li>Restart the browser to enable the changes.</li></ul>
+
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<h4 class="sub">Find the Java Control Panel</h4>
+<p>
+» <a href="win_controlpanel.html">Windows</a><br/>
+» <a href="mac_controlpanel.html">Mac OS X</a> 
+</p>
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<img alt="revocation check configuration options" class="ctralign" src="../../../ga/images/en/jcp_revocation_settings.jpg%3bfilename_%3dUTF-8%27%27jcp_revocation_settings.jpg"/><br/><br/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Perform Certificate revocation checks on</h5>
+Before a signed applet or Java Web Start application is run, the certificate associated with the application will be checked to ensure it has not been revoked. If a certificate has been revoked, any application using that 
+certificate is not allowed to run. This check can be disabled, but that is not recommended. <br/>
+Options for certificate revocation checking:
+<ul>
+<li><b>Publishers certificate only</b><br/>
+This option will check for a certificate associated with the publisher.</li>
+<li><b>All certificates in the chain of trust (default and recommended)</b><br/>
+This option will check for all the certificates used by the application.</li>
+<li><b>Do not check (not recommended)</b></li>
+</ul>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Check for certificate revocation using</h5>
+The options indicate methods used to determine if a certificate has been revoked. <br/>
+<ul>
+<li><b>Certificate Revocations Lists (CRLs)</b>
+<br/>
+This method needs lists to be generated and published periodically by Certificate Authority (CA) to keep the it current.
+</li>
+<li><b>Online Certificate Status Protocol (OCSP)</b><br/>
+This method performs a real time certificate status check with CA making it more reliable and faster.
+</li>
+<li><b>Both CRLs and OCSP (default and recommended)</b></li>
+</ul>
+
+
+
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+	
+
+	 
+	
+		
+	
+	
+		<hr>
+		<p><b>You might also be interested in:</b></p>
+		<ul class="bluearrows">
+			
+		        
+		        
+		         
+				<li>
+					
+
+
+
+	
+	
+	
+		
+		
+	<!--  Begin /jArticle_C/Render-Link.jsp -->
+	
+	
+	
+    
+	
+	
+	
+		 
+		 
+	
+	<a href='appsecuritydialogs.html'>What should I do when I see a security prompt from Java?</a>
+	<!--  End /jArticle_C/Render-Link.jsp -->
+
+	
+	
+	
+
+				</li>
+				
+		</ul>
+		<br/><br/>
+	
+	 	
+	
+	</div><!-- /jvc0w2  -->
+	</div><!-- /jvc0w1 clearfix -->
+		
+	
+	
+		
+		<div class="jvcs0 clearfix">
+	
+		
+		
+		
+		
+			 
+			 
+		
+	
+		<div class="spsidebar">	
+		<div class="spheader"><a href='index.html'>Help Resources</a></div>
+		<ul>
+		
+		
+			
+	      		
+	   		
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="index_installing.html">Installing Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li id="olderVersions"><a href="https://java.com/en/download/faq/remove_olderversions.xml">Remove Older Versions</a></li>
+						
+										
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="disable_browser.html">Disable Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+							<li><a href="index_using.html"><b>Using Java</b></a></li>
+						
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_general.xml">General Questions</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_mobile.xml">Mobile Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/security/">Security</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/support.jsp">Support Options</a></li>
+						
+					
+				
+				
+			
+				
+					
+		</ul>
+		</div>
+		<br>
+		
+	
+			
+		
+			
+				
+					
+					
+									
+				 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<a href="http://www.prestoexperts.com/lp/java-help-3/?BanID=22489" target="_top">
+	
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+
+	
+
+
+	<img src="../../../ga/images/liveperson_banner_2014.jpg%3bfilename_%3dUTF-8%27%27liveperson_banner_2014.jpg" alt="Find expert help on Java installation and setup"  width="170"  height="134" />
+	
+</a>
+<br />
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+			
+		
+		
+		
+			
+		
+			
+	
+		</div><!--  /jvcs0 clearfix -->
+		</div><!-- /jvc0 -->
+		
+	
+	
+		
+		
+			
+	 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Footer/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	<div class="jvf0">
+		<div class="jvf0">
+
+<p>
+<a href="https://java.com/en/selectlanguage.jsp" title="Select Language">Select Language</a>
+| <a href="https://java.com/en/about/" title="About Java">About Java</a>
+| <a href="https://java.com/en/download/support.jsp" title="Support">Support</a>
+| <a href="https://java.com/en/download/faq/develop.xml" title="Developers">Developers</a>
+| <a href="https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23" onclick="return popFeedback('https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23');" id="feedback-link" title="Feedback">Feedback</a>
+<br />
+  <a href="https://www.oracle.com/html/privacy.html" title="Privacy">Privacy</a> 
+|&nbsp;<a><span id='teconsent'></span></a>&nbsp;
+| <a href="https://www.oracle.com/html/terms.html" title="Terms of Use">Terms of Use</a>
+| <a href="https://www.oracle.com/html/3party.html" title="Trademarks">Trademarks</a>
+| <a href="https://java.com/en/about/disclaimer.jsp" title="Disclaimer">Disclaimer</a>
+</p>
+<a href="https://www.oracle.com/" class="jvsun0">Oracle</a>
+</div>
+
+	</div>
+	<!-- END: jWidget_C/Footer/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+	
+	
+		
+			<!--[if gte IE 6]><!-->
+			<script src="../../../ga/js/global.js%3bfilename_%3dUTF-8%27%27global.js" type="text/javascript" charset="utf-8"></script>
+			<!-- <![endif]-->
+			
+			
+		
+	
+	
+	
+		
+		
+			
+				
+			
+			
+		
+		<script language="JavaScript">
+		<!--
+			var s_channel="javac:Support:Help";
+			var s_pageName="javac:Support:Help:revocation_options.xml";
+			var s_prop19="en_javac_Support_Help_revocation_options.html";
+			var s_charSet="UTF-8";
+		//-->
+		</script>
+		<script language="JavaScript" src="../../../ga/js/s_code_remote.js%3bfilename_%3dUTF-8%27%27s_code_remote.js"></script>
+		<script>
+			userAgent = navigator.userAgent;
+			userAgent = userAgent == null ? "" : userAgent.toLowerCase();
+			
+			if (userAgent.indexOf('mac') != -1){
+				document.getElementById("olderVersions").style.display = "none"
+			}
+		</script>
+	
+		
+	
+</body>
+
+<!-- Mirrored from java.com/en/download/help/revocation_options.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:57 GMT -->
+</html>
+
+

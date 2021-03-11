@@ -1,0 +1,1600 @@
+ 
+
+
+
+
+
+
+
+
+
+
+	
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US" xml:lang="en-US">
+
+<!-- Mirrored from java.com/en/download/help/appsecuritydialogs.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="Language" content="en-US"/>
+<meta name="ROBOTS" content="INDEX,FOLLOW"/>
+
+<title>What should I do when I see a security prompt from Java?</title>
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content="self signed, popup, blocked, warning, alert"/>
+<meta name="date" content="2015-07-27"/>
+
+
+
+
+	
+		
+					<meta name='oracle:JRE' content='7.0,8.0'/>
+				
+
+		<meta name="oracle:articleType" content='help'/>		
+	
+		<link rel="stylesheet" media="all" type="text/css" href="../../../ga/css/oldcss.css%3bfilename_%3dUTF-8%27%27oldcss.css" />
+	
+		<script type="text/javascript" src="../../../ga/js/popUp.js%3bfilename_%3dUTF-8%27%27popUp.js"></script>
+	 
+
+
+<link rel="stylesheet" href="../../../ga/css/ga-screen.css%3bfilename_%3dUTF-8%27%27ga-screen.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="../../../ga/css/print.css%3bfilename_%3dUTF-8%27%27print.css" type="text/css" media="print" charset="utf-8"/>
+	<script async="async" type="text/javascript" src='http://consent.trustarc.com/notice?domain=oracle.com&amp;c=teconsent&amp;js=bb&amp;noticeType=bb&amp;text=true&amp;gtm=1&amp;language=en' crossorigin=""></script>
+	
+	<style type="text/css">
+  		#teconsent a {
+  			text-decoration: underline;
+  		}
+  
+  		#teconsent a:hover {
+  			text-decoration: none;
+  		}
+	</style>
+	
+	<script async src="../../../../dyn-beacon.akamaized.net/js/dyn.beacon.v4.js" id="beaconcfg" data-id='0138'></script>
+	
+</head>
+
+
+
+
+	 
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+ 
+
+
+
+
+
+
+
+	 
+	
+
+
+
+
+<body>
+	<a name="top"></a>
+	
+
+			
+		
+ 
+		
+			
+			
+			
+		 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Header/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	
+		
+	
+	<div class="jvh0">
+		<a class="jvl0" href="https://java.com/en/" title="java.com">Java.com</a>
+<p>
+<a href="https://java.com/inc/BrowserRedirect1.jsp?locale=en">Download</a>
+<a href="index.html">Help</a>
+</p>
+
+<form name="searchForm" method="get" action="https://www.oracle.com/search/results" accept-charset="utf-8" class="jvs0 jv0sv0" onsubmit="if((document.searchForm.Ntt.value == document.searchForm.Ntt.defaultValue) || (document.searchForm.Ntt.value == '')){return false;}">
+<input type="hidden" name="cat" value="javacom">
+<input type="hidden" name="Ntk" value="SI-ALL5">
+<input type="hidden" name="lang" value="en">
+<input class="bodytext" maxlength="55" name="Ntt" onfocus="if( this.value==this.defaultValue ) this.value='';" onblur="if( this.value=='' ) this.value=this.defaultValue;" size="20" title="Search" type="text" value="Search" />
+<input alt="Search" id="searchbtn" name="submit" src="../../../ga/images/jv0_search_btn.gif%3bfilename_%3dUTF-8%27%27jv0_search_btn.gif" type="image" />
+</form>
+	</div>
+	<!-- END: jWidget_C/Header/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+			
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<div class="jvc0 jvc0v0 clearfix">
+		
+	<div class="jvc0w1 clearfix">
+	    <div style="float: right;"> 
+        	<a title='Printable Version' href="appsecuritydialogs118c.html?printFriendly=true" 
+           target="printFriendlyView" onclick="openPopup('','printFriendlyView',800,650,'no',1,1,0,0,0,0); return true;"> 
+           <img src="../../../ga/im/printer.png%3bfilename_%3dUTF-8%27%27printer.png" width="15" height="14" alt='Printable Version' class="pfv"> </a> 
+    	</div> 		
+	
+		
+	<div class="jvc0w2">	
+	<h3><b>
+        What should I do when I see a security prompt from Java?
+    </b></h3>
+	
+		
+	
+	
+	
+
+	
+
+	
+		<hr />
+		This article applies to:
+		<ul>
+			
+				
+			
+			
+				
+			 
+			
+				
+					<li><b>Java version(s): </b>7.0, 8.0
+					</li>
+				
+				
+		</ul>
+		<hr />
+	
+	
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<p>Java 7 Update 21 introduced changes to the Java browser plug-in behavior that enable you to make more informed decisions before running the Java applet in the browser. A security prompt asks for confirmation before allowing Java content to run in the browser. For users, developers and system administrators who need <a href="#background">more technical information</a> refer to the links provided at the end of this article.</p>
+
+<p><b>Risk Levels</b><br/>
+The messages presented depends upon different risk factors, such as using old versions of Java or running applet code that is not signed from a trusted Certificate Authority.
+Apps that present a lower risk display a simple informational message. This includes an option to prevent showing similar messages for apps from the same publisher in the future.</p>
+
+<p>This page describes the prompts to help you understand the risks of running the Java applet.</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<table border="0" cellpadding="5" cellspacing="5">
+<tbody><tr>
+<th colspan="3">Java application prompts which include these images present a lower security risk.
+</th>
+</tr>
+<tr>
+<td><img alt="Java logo" class="ctralign" src="../../../ga/images/java-icon.jpg%3bfilename_%3dUTF-8%27%27java-icon.jpg"/></td>
+<td width="28%">The Java logo or publishers logo</td>
+<td>Represents an application that is identified by a valid certificate from a trusted Certificate Authority (CA). See below for <a href="#trusted">more information</a></td>
+</tr><tr valign="top">
+<td><img alt="Blue information shield icon" class="ctralign" src="../../../ga/images/securitylow-icon.jpg%3bfilename_%3dUTF-8%27%27securitylow-icon.jpg"/></td>
+<td width="28%">Blue information shield</td>
+<td>Indicates that the application can be identified by a valid certificate and more information is available.</td>
+</tr>
+</tbody></table>
+<br/>
+<table border="0" cellpadding="5" cellspacing="5">
+<tbody><tr>
+<th colspan="3">Java application prompts which include these images present a higher security risk and should not be run.</th>
+
+</tr>
+<tr valign="top">
+<td><img alt="Yellow warning triangle icon" class="ctralign" src="../../../ga/images/warning-icon.jpg%3bfilename_%3dUTF-8%27%27warning-icon.jpg"/></td>
+<td width="28%">Yellow warning triangle</td>
+<td>Represents an application that cannot be identified because the certificate is untrusted or expired. See below for <a href="#untrusted">more information</a></td>
+</tr>
+
+<tr valign="top">
+<td><img alt="Yellow warning shield icon" class="ctralign" src="../../../ga/images/cautionshield-icon.jpg%3bfilename_%3dUTF-8%27%27cautionshield-icon.jpg"/></td>
+<td width="28%">Yellow warning shield</td>
+<td>Indicates that the application is unsigned and/or the certificate is not valid. Identification information provided by the certificate should not be trusted.</td> 
+</tr>
+</tbody></table>
+<br/>
+» <a href="https://java.com/en/download/faq/signed_code.xml">More information on the changes regarding signed code</a><br/><br/>
+<hr/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="trusted">Java application with a certificate from a trusted authority </a></h4>Applications of this type are <b>typically low risk</b>, This dialog represents the application with valid certificate from trusted authority.
+<br/><br/><b>What to look for</b>: 
+<ul>
+<li>Publisher name: Displayed </li>
+<li>Icons shown: Java or vendor logo and blue info shield </li>
+</ul>
+
+<img alt="Trusted application with valid certificate" class="ctralign" src="../../../ga/images/en/trusted_signed.jpg%3bfilename_%3dUTF-8%27%27trusted_signed.jpg"/> 
+<br/>
+You may see variations of the dialog based on the way application is deployed.
+<br/>» More information on <a href="trusted_signed_variations.html">other Trusted signed certificate dialogs</a>
+<br/><br/>
+<b>What to do</b>: 
+<ul>
+<li>Verify Name, Publisher or Location information displayed on the dialog. We recommend you hit <b>Cancel</b> if any of this information does not match. 
+</li>
+</ul>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<table border="0" cellpadding="5" cellspacing="5">
+<tbody><tr>
+<th colspan="2">The message presented in the dialog will differ depending on whether the application requests:
+</th>
+</tr>
+<tr>
+<td width="38%">Unrestricted access (Privileged)</td>
+<td>This application will run with unrestricted access which may put your computer and personal information at risk. Run this application only if you trust the location and publisher.</td>
+</tr>
+<tr valign="top">
+<td width="38%">Limited access (Sandbox)</td>
+<td>This application will run with limited access that is intended to protect your computer and personal information.</td>
+</tr>
+</tbody></table>
+<br/>
+<hr/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="unsigned">Java application with no certificate (Unsigned)</a></h4>
+<p>
+Starting with Java 7 Update 51, applications without a certificate (i.e. unsigned apps), or missing application Name and Publisher information are <b>blocked by default</b>. Running this kind of application is potentially unsafe and present <b>higher level of risk</b>. 
+</p>
+<b>What to look for</b>: 
+<ul>
+<li>Dialog title: Application Blocked or Java Application Blocked (Java 8)</li>
+<li>Publisher name: No publisher listed </li>
+<li>Message title: Application Blocked by Security Settings or Application Blocked by Java Security (Java 8)</li>
+<li>Message: <strong>Your security settings have blocked an untrusted application from running</strong><br>
+For security, applications must now meet the requirements for the High or Very High security settings, or be part of the Exception Site List, to be allowed to run. (8u20 and above)</li>
+</ul>
+
+
+<img alt="Unsigned applet - An unsigned application from the location below is requesting permission to run. Running this application may be a security risk" class="ctralign" src="../../../ga/images/en/unsigned_cert.jpg%3bfilename_%3dUTF-8%27%27unsigned_cert.jpg"/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<br />
+<b>What to do</b>:
+<p>It is <strong>highly recommended not to run this type of application</strong>. However if you understand the risk and still want to run the application, you can add the URL of this application to <b>Exception Site List</b>, which is located under the Security tab of the Java Control Panel. Adding this application URL to this list will allow it to run after presenting some security warnings.
+<br>
+» <a href="https://java.com/en/download/faq/exception_sitelist.xml"> How to manage and configure Exception Site List</a>
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="untrusted">Java application with an expired certificate from a trusted authority</a></h4>
+Applications of this type present a <b>moderate level of risk</b> because the publisher has not renewed their certificate.
+<br /><br />
+<b>What to look for</b>:
+<ul>
+<li>Dialog title:  Application Blocked or Java Application Blocked (Java 8)</li>
+<li>Message title:  Application Blocked by Security Settings or Application Blocked by Java Security (Java 8)</li>
+<li>Warning:  <strong>Your security settings have blocked an application signed with an expired or not-yet-valid certificate from running</strong> <br>
+For security, applications must now meet the requirements for the High or Very High security settings, or be part of the Exception Site List, to be allowed to run. (8u20 and above)</li></ul>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<img alt="Trusted signed applet with expired certificate" class="ctralign" src="../../../ga/images/en/trusted_expired.jpg%3bfilename_%3dUTF-8%27%27trusted_expired.jpg">
+<br />
+You may see variations of the dialog when running an older Java version.
+<br /><br />
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<b>What to do</b>: 
+<p>It is <strong>highly recommended not to run this type of application</strong>. However if you understand the risk and still want to run the application, you can add the URL of this application to <b>Exception Site List</b>, which is located under the Security tab of the Java Control Panel. Adding this application URL to this list will allow it to run after presenting some security warnings.
+<br>
+» <a href="https://java.com/en/download/faq/exception_sitelist.xml"> How to manage and configure Exception Site List</a>
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<table border="0" cellpadding="5" cellspacing="5">
+<tbody><tr>
+<th colspan="2">The message presented in the dialog will differ depending on whether the application requests:
+</th>
+</tr>
+<tr>
+<td width="38%">Unrestricted access (Privileged)</td>
+<td>This application will run with unrestricted access which may put your computer and personal information at risk. The information provided is unreliable or unknown so it is recommended not to run this application unless you are familiar with its source</td>
+</tr>
+<tr valign="top">
+<td width="38%">Limited access (Sandbox)</td>
+<td>This application will run with limited access that is intended to protect your computer and personal information.</td>
+</tr>
+</tbody></table>
+<br/>
+
+<hr/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="selfsigned">Java application with a certificate from an untrusted source</a></h4>
+<p>
+Starting with Java 7 Update 51, applications with <b>self-signed certificates</b> are <b>blocked by default</b>. Applications of this type present the <b>highest level of risk</b> because publisher is not identified and the application may be granted access to personal data on your computer. 
+</p>
+<b>What to look for</b>: 
+<ul>
+<li>Dialog title: Application Blocked or Java Application Blocked (Java 8)</li>
+<li>Publisher name: No publisher listed</li>
+<li>Message title: Application Blocked by Security Settings or Application Blocked by Java Security (Java 8) </li>
+<li>Message displayed: <strong>Your security settings have blocked a self-signed application from running</strong><br>
+For security, applications must now meet the requirements for the High or Very High security settings, or be part of the Exception Site List, to be allowed to run. (8u20 and above)</li>
+</ul>
+
+<img alt="Self Signed applet" class="ctralign" src="../../../ga/images/en/selfsigned_cert.jpg%3bfilename_%3dUTF-8%27%27selfsigned_cert.jpg"/>
+<br/><br/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<b>What to do</b>:
+<p>It is <strong>highly recommended not to run this type of application</strong>. However if you understand the risk and still want to run the application, you can add the URL of this application to <b>Exception Site List</b>, which is located under the Security tab of the Java Control Panel. Adding this application URL to this list will allow it to run after presenting some security warnings.
+<br>
+» <a href="https://java.com/en/download/faq/exception_sitelist.xml"> How to manage and configure Exception Site List</a>
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="revokecheck">Revocation Checking for Java Applications</a></h4>
+Starting with Java 7u25, before attempting to launch any Java application, the signing certificate will be validated against the issuing certificate authority, using Certificate Revocation Lists (CRL) and Online Certificate Status Protocol (OCSP) to check that the certificate used to sign the application has not been revoked by the issuing Certificate Authority.<br/><br/>
+
+This feature will protect end user systems from malicious developers who in the past used stolen certificates, or illicitly purchased certificates to sign applications. Before running any web-deployed application with Java 7u25 (and later), there will be an attempt to contact the certificate authority to check revocation status to help guard against stolen or compromised certificates.
+<br/><br/>
+<b>What to look for</b>:<br/>
+The revocation check can return different messages based on the check:
+<ul>
+<li>Certificate is revoked</li>
+<li>Failed to validate certificate</li>
+<li>Unable to connect to Certificate Authority</li>
+</ul>
+
+<h4>Certificate is revoked. Application will not be executed.</h4>
+
+This dialog displays when running an application with a certificate that has been revoked by the Certificate Authority (CA). This scenario presents the <b>highest level of risk</b>. The application will not be executed as it can be from a malicious source.
+<br/><br/>
+<img alt="Certificate revoked - The certificate of an application from the listed location is revoked. This application will not be executed" class="ctralign" src="../../../ga/images/en/cert_revoked.jpg%3bfilename_%3dUTF-8%27%27cert_revoked.jpg"/>
+<br/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4>Failed to validate certificate. Application will not be executed.</h4>
+
+This dialog displays when running an application with a certificate that cannot be validated by the Certificate Authority (CA). It appears if you have set the security level to Very High within the Java Control Panel, and the certificate cannot be validated. 
+<br/><br/>
+<img alt="Certificate validation failed - The certificate for the application from the listed location cannot be validated. This application will not be executed." class="ctralign" src="../../../ga/images/en/cert_failedvalidation.jpg%3bfilename_%3dUTF-8%27%27cert_failedvalidation.jpg"/><br/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4>Unable to connect to Certificate  Authority</h4>
+
+This dialog displays when there is a network failure and the Certificate Authority (CA) cannot be reached to validate the certificate. In this case, it is usually safe to run the application because their actions are limited, but may still present a <b>moderate level of risk</b>. We recommend you hit Cancel. if you are not familiar with the publisher of the site you are visiting.
+<br/><br/>
+
+» More information on options to <a href="revocation_options.html">configure revocation settings from within the Java Control Panel.</a><br/><br/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/><span class="titleblack">MORE TECHNICAL INFORMATION</span><br><br>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<a name="background"/>
+<ul>
+<li>More information on the security prompts can be found in the <a href="https://java.com/en/download/faq/signed_code.xml">Code Signing FAQ</a>.</li>
+<li>Developers and system administrators should look at the <a href="http://www.oracle.com/technetwork/java/javase/tech/java-code-signing-1915323.html">Java Applet and Web Start Code Signing article</a>. (OTN)</li>
+</ul>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+	
+
+	 
+	
+		
+	
+	
+	 	
+	
+	</div><!-- /jvc0w2  -->
+	</div><!-- /jvc0w1 clearfix -->
+		
+	
+	
+		
+		<div class="jvcs0 clearfix">
+	
+		
+		
+		
+		
+			 
+			 
+		
+	
+		<div class="spsidebar">	
+		<div class="spheader"><a href='index.html'>Help Resources</a></div>
+		<ul>
+		
+		
+			
+	      		
+	   		
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="index_installing.html">Installing Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li id="olderVersions"><a href="https://java.com/en/download/faq/remove_olderversions.xml">Remove Older Versions</a></li>
+						
+										
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="disable_browser.html">Disable Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+							<li><a href="index_using.html"><b>Using Java</b></a></li>
+						
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_general.xml">General Questions</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_mobile.xml">Mobile Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/security/">Security</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/support.jsp">Support Options</a></li>
+						
+					
+				
+				
+			
+				
+					
+		</ul>
+		</div>
+		<br>
+		
+	
+			
+		
+			
+				
+					
+					
+									
+				 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<a href="http://www.prestoexperts.com/lp/java-help-3/?BanID=22489" target="_top">
+	
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+
+	
+
+
+	<img src="../../../ga/images/liveperson_banner_2014.jpg%3bfilename_%3dUTF-8%27%27liveperson_banner_2014.jpg" alt="Find expert help on Java installation and setup"  width="170"  height="134" />
+	
+</a>
+<br />
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+			
+		
+		
+		
+			
+		
+			
+	
+		</div><!--  /jvcs0 clearfix -->
+		</div><!-- /jvc0 -->
+		
+	
+	
+		
+		
+			
+	 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Footer/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	<div class="jvf0">
+		<div class="jvf0">
+
+<p>
+<a href="https://java.com/en/selectlanguage.jsp" title="Select Language">Select Language</a>
+| <a href="https://java.com/en/about/" title="About Java">About Java</a>
+| <a href="https://java.com/en/download/support.jsp" title="Support">Support</a>
+| <a href="https://java.com/en/download/faq/develop.xml" title="Developers">Developers</a>
+| <a href="https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23" onclick="return popFeedback('https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23');" id="feedback-link" title="Feedback">Feedback</a>
+<br />
+  <a href="https://www.oracle.com/html/privacy.html" title="Privacy">Privacy</a> 
+|&nbsp;<a><span id='teconsent'></span></a>&nbsp;
+| <a href="https://www.oracle.com/html/terms.html" title="Terms of Use">Terms of Use</a>
+| <a href="https://www.oracle.com/html/3party.html" title="Trademarks">Trademarks</a>
+| <a href="https://java.com/en/about/disclaimer.jsp" title="Disclaimer">Disclaimer</a>
+</p>
+<a href="https://www.oracle.com/" class="jvsun0">Oracle</a>
+</div>
+
+	</div>
+	<!-- END: jWidget_C/Footer/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+	
+	
+		
+			<!--[if gte IE 6]><!-->
+			<script src="../../../ga/js/global.js%3bfilename_%3dUTF-8%27%27global.js" type="text/javascript" charset="utf-8"></script>
+			<!-- <![endif]-->
+			
+			
+		
+	
+	
+	
+		
+		
+			
+				
+			
+			
+		
+		<script language="JavaScript">
+		<!--
+			var s_channel="javac:Support:Help";
+			var s_pageName="javac:Support:Help:appsecuritydialogs.xml";
+			var s_prop19="en_javac_Support_Help_appsecuritydialogs.html";
+			var s_charSet="UTF-8";
+		//-->
+		</script>
+		<script language="JavaScript" src="../../../ga/js/s_code_remote.js%3bfilename_%3dUTF-8%27%27s_code_remote.js"></script>
+		<script>
+			userAgent = navigator.userAgent;
+			userAgent = userAgent == null ? "" : userAgent.toLowerCase();
+			
+			if (userAgent.indexOf('mac') != -1){
+				document.getElementById("olderVersions").style.display = "none"
+			}
+		</script>
+	
+		
+	
+</body>
+
+<!-- Mirrored from java.com/en/download/help/appsecuritydialogs.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:44 GMT -->
+</html>
+
+

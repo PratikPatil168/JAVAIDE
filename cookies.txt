@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.java.com	TRUE	/	FALSE	1999999999	ORA_FLEX_CACHE_KEY	desktop-netscape4-windows98-32bit
+java.com	TRUE	/	FALSE	1999999999	JSESSIONID	kVvItt4PPjPbBGJmTAbiLLKUJcS43bAS1DAs6ddH6Wn-JvcxEb6V!-2070876779!816747966
+

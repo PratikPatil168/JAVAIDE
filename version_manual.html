@@ -1,0 +1,1339 @@
+ 
+
+
+
+
+
+
+
+
+
+
+	
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US" xml:lang="en-US">
+
+<!-- Mirrored from java.com/en/download/help/version_manual.xml by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:12:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="Language" content="en-US"/>
+<meta name="ROBOTS" content="INDEX,FOLLOW"/>
+
+<title>How to find Java version in Windows or Mac - Manual method</title>
+
+	<meta name="description" content="Learn how to find which Java version(s) are installed without running an applet on Windows or Mac"/>
+	<meta name="keywords" content="JRE, applet, verification, verify, testjava"/>
+<meta name="date" content="2017-02-24"/>
+
+
+
+
+	
+		
+					<meta name='oracle:JRE' content='7.0,8.0'/>
+				
+
+
+
+
+	
+		
+					<meta name='oracle:OS' content='Mac OS X,Windows Vista,Windows XP,Windows 8,Windows 7,macOS,Windows 10'/>
+				
+
+		<meta name="oracle:articleType" content='help'/>		
+	
+		<link rel="stylesheet" media="all" type="text/css" href="../../../ga/css/oldcss.css%3bfilename_%3dUTF-8%27%27oldcss.css" />
+	
+		<script type="text/javascript" src="../../../ga/js/popUp.js%3bfilename_%3dUTF-8%27%27popUp.js"></script>
+	 
+
+
+<link rel="stylesheet" href="../../../ga/css/ga-screen.css%3bfilename_%3dUTF-8%27%27ga-screen.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="../../../ga/css/print.css%3bfilename_%3dUTF-8%27%27print.css" type="text/css" media="print" charset="utf-8"/>
+	<script async="async" type="text/javascript" src='http://consent.trustarc.com/notice?domain=oracle.com&amp;c=teconsent&amp;js=bb&amp;noticeType=bb&amp;text=true&amp;gtm=1&amp;language=en' crossorigin=""></script>
+	
+	<style type="text/css">
+  		#teconsent a {
+  			text-decoration: underline;
+  		}
+  
+  		#teconsent a:hover {
+  			text-decoration: none;
+  		}
+	</style>
+	
+	<script async src="../../../../dyn-beacon.akamaized.net/js/dyn.beacon.v4.js" id="beaconcfg" data-id='0138'></script>
+	
+</head>
+
+
+
+
+	 
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+ 
+
+
+
+
+
+
+
+	 
+	
+
+
+
+
+<body>
+	<a name="top"></a>
+	
+
+			
+		
+ 
+		
+			
+			
+			
+		 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Header/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	
+		
+	
+	<div class="jvh0">
+		<a class="jvl0" href="https://java.com/en/" title="java.com">Java.com</a>
+<p>
+<a href="https://java.com/inc/BrowserRedirect1.jsp?locale=en">Download</a>
+<a href="index.html">Help</a>
+</p>
+
+<form name="searchForm" method="get" action="https://www.oracle.com/search/results" accept-charset="utf-8" class="jvs0 jv0sv0" onsubmit="if((document.searchForm.Ntt.value == document.searchForm.Ntt.defaultValue) || (document.searchForm.Ntt.value == '')){return false;}">
+<input type="hidden" name="cat" value="javacom">
+<input type="hidden" name="Ntk" value="SI-ALL5">
+<input type="hidden" name="lang" value="en">
+<input class="bodytext" maxlength="55" name="Ntt" onfocus="if( this.value==this.defaultValue ) this.value='';" onblur="if( this.value=='' ) this.value=this.defaultValue;" size="20" title="Search" type="text" value="Search" />
+<input alt="Search" id="searchbtn" name="submit" src="../../../ga/images/jv0_search_btn.gif%3bfilename_%3dUTF-8%27%27jv0_search_btn.gif" type="image" />
+</form>
+	</div>
+	<!-- END: jWidget_C/Header/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+			
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<div class="jvc0 jvc0v0 clearfix">
+		
+	<div class="jvc0w1 clearfix">
+	    <div style="float: right;"> 
+        	<a title='Printable Version' href="version_manual118c.html?printFriendly=true" 
+           target="printFriendlyView" onclick="openPopup('','printFriendlyView',800,650,'no',1,1,0,0,0,0); return true;"> 
+           <img src="../../../ga/im/printer.png%3bfilename_%3dUTF-8%27%27printer.png" width="15" height="14" alt='Printable Version' class="pfv"> </a> 
+    	</div> 		
+	
+		
+	<div class="jvc0w2">	
+	<h3><b>
+        How can I find which version of Java is installed without running an applet in Windows or Mac?
+    </b></h3>
+	
+		
+	
+	
+	
+
+	
+
+	
+		<hr />
+		This article applies to:
+		<ul>
+			
+				
+					<li><b>Platform(s): </b>Mac OS X, Windows 10, Windows 7, Windows 8, Windows Vista, Windows XP, macOS
+					</li>
+				
+			
+			
+				
+			 
+			
+				
+					<li><b>Java version(s): </b>7.0, 8.0
+					</li>
+				
+				
+		</ul>
+		<hr />
+	
+	
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+The Java version can be found: 
+<ul>
+<li><a href="#winstart">under the Windows Start Menu</a></li>
+<li><a href="#jcpl">in the Java Control Panel</a> (Windows and Mac)</li>
+<li><a href="#wcpl">under Programs of the Windows Control Panel</a></li>
+<li><a href="#cmdline">in terminal window command line</a> (Mac)</li>
+</ul>
+<p>Use any of these options if you are having trouble running applets to confirm that you have a specific Java version.</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="winstart">Java Version under Windows Start Menu - Java 7 Update 40 (7u40) and later versions</a></h4>
+Starting with Java 7 Update 40, you can find the Java version through the Windows Start menu.
+<ol>
+<li>Launch the <b>Windows Start</b> menu</li>
+<li>Click on <b>Programs</b></li>
+<li>Find the <b>Java</b> program listing</li>
+<li>Click <b>About Java</b> to see the Java version</li>
+</ol>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="jcpl">Java Version in the Java Control Panel - Windows and Mac</a></h4>
+
+<p>The Java version can be found in the Java Control Panel.</p>
+<ol>
+<li><a href="win_controlpanel.html">Find the Java Control Panel on Windows</a><br />
+<a href="mac_controlpanel.html">Find the Java Control Panel on Mac</a>
+</li>
+<li>Under the <b>General</b> tab in the Java Control Panel, the version is available through  the <b>About</b> section. A dialog appears (after clicking <b>About</b>) showing the Java version.
+</li>
+</ol>
+<img alt="Java version listed in the About Java dialog of the Java Control Panel" class="ctralign" src="../../../ga/images/en/jcp-version.png%3bfilename_%3dUTF-8%27%27jcp-version.png"/>
+<br/><br/>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4><a name="wcpl">Java Version in Windows Programs</a></h4>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<p><img class="alert" src="../../../ga/images/ic_tipblue20x20.png%3bfilename_%3dUTF-8%27%27ic_tipblue20x20.png"/>The latest version(s) of Java on your system will be listed as <b>Java</b> 8 with an associated Update number (eg. Java 8 Update 111).  Older versions may be listed as Java(TM), Java Runtime Environment, Java SE, J2SE or  Java 2.
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Windows 10</h5>
+<ol>
+<li>Click the <b>Start</b> button</li>
+<li>Scroll through the applications and programs listed until you see the <b>Java</b> folder</li>
+<li>Click on the <b>Java</b> folder, then <b>About Java</b> to see the Java version</li>
+</ol>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Windows 8</h5>
+<ol>
+<li>Right-click on the screen at bottom-left corner and choose the <b>Control Panel</b> from the pop-up menu.</li>
+<li>When the Control Panel appears, select <b>Programs</b></li>
+<li>Click <b>Programs and Features</b></li>
+<li>The installed Java version(s) are listed.</li></ol>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Windows 7 and Vista</h5>
+<ol><li>Click <b>Start</b></li>
+<li>Select <b>Control Panel</b></li>
+<li>Select <b>Programs</b></li>
+<li>Click <b>Programs and Features</b></li>
+<li>The installed Java version(s) are listed.</li></ol>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Windows XP</h5>
+<ol><li>Click <b>Start</b></li>
+<li>Select <b>Control Panel</b></li>
+<li>Click the <b>Add/Remove Programs</b> control panel icon</li>
+<li>The Add/Remove control panel displays a list of software on your system, including any Java versions that are on your computer.</li></ol>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr/>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<span class="titleblack">MORE TECHNICAL INFORMATION</span><br /><br />
+
+<h4><a name="cmdline">Using the Command-line to find Java Versions - Mac</a></h4>
+<p>The Java Runtime (JRE) that you download from java.com or oracle.com contains a plugin to run Java content from your browser. In order to use the command line tools, you will need to download the Java Development Kit (JDK). The JRE and JDK are separate and can coexist on your system. Only one JRE can be installed on Mac. There can be multiple JDKs installed on a system, as many as you wish.</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">JRE Version Command Line on Mac</h5>
+<p>
+Type the following in a <strong>Terminal</strong> window:
+<br>
+<code>/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java -version
+</code>
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Determining the Default Version of the JDK on Mac</h5>
+
+<p>When launching a Java application through the command line, the system uses the default JDK. It is possible for the version of the JRE to be different than the version of the JDK.</p>
+<p>You can determine which version of the JDK is the default by typing <code>java -version</code> in a <strong>Terminal</strong> window. If the installed version is 7u55, you will see a string that includes the text <code>1.7.0_55</code>. 
+For example:</p>
+<code>java -version</code><br />
+<code>java version "1.7.0_55"</code><br />
+<code>Java(TM) SE Runtime Environment (build 1.7.0_55-b13)</code><br>
+<code>Java HotSpot(TM) 64-Bit Server VM (build 24.55-b03, mixed mode)</code><br />
+<br /><br />
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+	
+
+	 
+	
+		
+	
+	
+	 	
+	
+	</div><!-- /jvc0w2  -->
+	</div><!-- /jvc0w1 clearfix -->
+		
+	
+	
+		
+		<div class="jvcs0 clearfix">
+	
+		
+		
+		
+		
+			 
+			 
+		
+	
+		<div class="spsidebar">	
+		<div class="spheader"><a href='index.html'>Help Resources</a></div>
+		<ul>
+		
+		
+			
+	      		
+	   		
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="index_installing.html">Installing Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li id="olderVersions"><a href="https://java.com/en/download/faq/remove_olderversions.xml">Remove Older Versions</a></li>
+						
+										
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="disable_browser.html">Disable Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+							<li><a href="index_using.html"><b>Using Java</b></a></li>
+						
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_general.xml">General Questions</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_mobile.xml">Mobile Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/security/">Security</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/support.jsp">Support Options</a></li>
+						
+					
+				
+				
+			
+				
+					
+		</ul>
+		</div>
+		<br>
+		
+	
+			
+		
+			
+				
+					
+					
+									
+				 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<a href="http://www.prestoexperts.com/lp/java-help-3/?BanID=22489" target="_top">
+	
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+
+	
+
+
+	<img src="../../../ga/images/liveperson_banner_2014.jpg%3bfilename_%3dUTF-8%27%27liveperson_banner_2014.jpg" alt="Find expert help on Java installation and setup"  width="170"  height="134" />
+	
+</a>
+<br />
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+			
+		
+		
+		
+			
+		
+			
+	
+		</div><!--  /jvcs0 clearfix -->
+		</div><!-- /jvc0 -->
+		
+	
+	
+		
+		
+			
+	 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Footer/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	<div class="jvf0">
+		<div class="jvf0">
+
+<p>
+<a href="https://java.com/en/selectlanguage.jsp" title="Select Language">Select Language</a>
+| <a href="https://java.com/en/about/" title="About Java">About Java</a>
+| <a href="https://java.com/en/download/support.jsp" title="Support">Support</a>
+| <a href="https://java.com/en/download/faq/develop.xml" title="Developers">Developers</a>
+| <a href="https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23" onclick="return popFeedback('https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23');" id="feedback-link" title="Feedback">Feedback</a>
+<br />
+  <a href="https://www.oracle.com/html/privacy.html" title="Privacy">Privacy</a> 
+|&nbsp;<a><span id='teconsent'></span></a>&nbsp;
+| <a href="https://www.oracle.com/html/terms.html" title="Terms of Use">Terms of Use</a>
+| <a href="https://www.oracle.com/html/3party.html" title="Trademarks">Trademarks</a>
+| <a href="https://java.com/en/about/disclaimer.jsp" title="Disclaimer">Disclaimer</a>
+</p>
+<a href="https://www.oracle.com/" class="jvsun0">Oracle</a>
+</div>
+
+	</div>
+	<!-- END: jWidget_C/Footer/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+	
+	
+		
+			<!--[if gte IE 6]><!-->
+			<script src="../../../ga/js/global.js%3bfilename_%3dUTF-8%27%27global.js" type="text/javascript" charset="utf-8"></script>
+			<!-- <![endif]-->
+			
+			
+		
+	
+	
+	
+		
+		
+			
+				
+			
+			
+		
+		<script language="JavaScript">
+		<!--
+			var s_channel="javac:Support:Help";
+			var s_pageName="javac:Support:Help:version_manual.xml";
+			var s_prop19="en_javac_Support_Help_version_manual.html";
+			var s_charSet="UTF-8";
+		//-->
+		</script>
+		<script language="JavaScript" src="../../../ga/js/s_code_remote.js%3bfilename_%3dUTF-8%27%27s_code_remote.js"></script>
+		<script>
+			userAgent = navigator.userAgent;
+			userAgent = userAgent == null ? "" : userAgent.toLowerCase();
+			
+			if (userAgent.indexOf('mac') != -1){
+				document.getElementById("olderVersions").style.display = "none"
+			}
+		</script>
+	
+		
+	
+</body>
+
+<!-- Mirrored from java.com/en/download/help/version_manual.xml by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:12:32 GMT -->
+</html>
+
+

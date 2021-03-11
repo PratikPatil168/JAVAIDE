@@ -1,0 +1,983 @@
+ 
+
+
+
+
+
+
+
+
+
+
+	
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US" xml:lang="en-US">
+
+<!-- Mirrored from java.com/en/download/help/disable_sslv3.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="Language" content="en-US"/>
+<meta name="ROBOTS" content="INDEX,FOLLOW"/>
+
+<title>How can Java users confirm they are not affected by the SSL V3.0 POODLE vulnerability </title>
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+<meta name="date" content="2015-07-27"/>
+
+		<meta name="oracle:articleType" content='help'/>		
+	
+		<link rel="stylesheet" media="all" type="text/css" href="../../../ga/css/oldcss.css%3bfilename_%3dUTF-8%27%27oldcss.css" />
+	
+		<script type="text/javascript" src="../../../ga/js/popUp.js%3bfilename_%3dUTF-8%27%27popUp.js"></script>
+	 
+
+
+<link rel="stylesheet" href="../../../ga/css/ga-screen.css%3bfilename_%3dUTF-8%27%27ga-screen.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" href="../../../ga/css/print.css%3bfilename_%3dUTF-8%27%27print.css" type="text/css" media="print" charset="utf-8"/>
+	<script async="async" type="text/javascript" src='http://consent.trustarc.com/notice?domain=oracle.com&amp;c=teconsent&amp;js=bb&amp;noticeType=bb&amp;text=true&amp;gtm=1&amp;language=en' crossorigin=""></script>
+	
+	<style type="text/css">
+  		#teconsent a {
+  			text-decoration: underline;
+  		}
+  
+  		#teconsent a:hover {
+  			text-decoration: none;
+  		}
+	</style>
+	
+	<script async src="../../../../dyn-beacon.akamaized.net/js/dyn.beacon.v4.js" id="beaconcfg" data-id='0138'></script>
+	
+
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"131324",ustr:"",originlat:"0",clientrtt:"101",ghostip:"23.11.215.14",ipv6:false,pct:"10",clientip:"1.186.79.232",requestid:"148a7b94",region:"26813",protocol:"",blver:14,akM:"dscx",akN:"ae",akTT:"O",akTX:"1",akTI:"148a7b94",ai:"160235",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+
+
+
+
+	 
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+ 
+
+
+
+
+
+
+
+	 
+	
+
+
+
+
+<body>
+	<a name="top"></a>
+	
+
+			
+		
+ 
+		
+			
+			
+			
+		 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Header/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	
+		
+	
+	<div class="jvh0">
+		<a class="jvl0" href="https://java.com/en/" title="java.com">Java.com</a>
+<p>
+<a href="https://java.com/inc/BrowserRedirect1.jsp?locale=en">Download</a>
+<a href="index.html">Help</a>
+</p>
+
+<form name="searchForm" method="get" action="https://www.oracle.com/search/results" accept-charset="utf-8" class="jvs0 jv0sv0" onsubmit="if((document.searchForm.Ntt.value == document.searchForm.Ntt.defaultValue) || (document.searchForm.Ntt.value == '')){return false;}">
+<input type="hidden" name="cat" value="javacom">
+<input type="hidden" name="Ntk" value="SI-ALL5">
+<input type="hidden" name="lang" value="en">
+<input class="bodytext" maxlength="55" name="Ntt" onfocus="if( this.value==this.defaultValue ) this.value='';" onblur="if( this.value=='' ) this.value=this.defaultValue;" size="20" title="Search" type="text" value="Search" />
+<input alt="Search" id="searchbtn" name="submit" src="../../../ga/images/jv0_search_btn.gif%3bfilename_%3dUTF-8%27%27jv0_search_btn.gif" type="image" />
+</form>
+	</div>
+	<!-- END: jWidget_C/Header/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+			
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	<div class="jvc0 jvc0v0 clearfix">
+		
+	<div class="jvc0w1 clearfix">
+	    <div style="float: right;"> 
+        	<a title='Printable Version' href="disable_sslv3118c.html?printFriendly=true" 
+           target="printFriendlyView" onclick="openPopup('','printFriendlyView',800,650,'no',1,1,0,0,0,0); return true;"> 
+           <img src="../../../ga/im/printer.png%3bfilename_%3dUTF-8%27%27printer.png" width="15" height="14" alt='Printable Version' class="pfv"> </a> 
+    	</div> 		
+	
+		
+	<div class="jvc0w2">	
+	<h3><b>How can Java users confirm they are not affected by the SSL V3.0 POODLE (CVE-2014-3566) vulnerability? </b></h3>
+	
+		
+	
+	
+	
+
+	
+
+	
+	
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<br />
+<p>
+Starting with the January 20, 2015 Critical Patch Update releases (JDK 8u31, JDK 7u75, JDK 6u91 and above), the Java Runtime Environment has SSLv3 disabled by default. If you have <a href="version_manual.html">verified that you are running those releases or later</a>, then no further action should be necessary.</p>
+<p>
+For previous releases, Oracle has provided background and instructions below for disabling SSLv3 for applets and Web Start, as well as detailed instructions for developers and system adminiustrators on OTN on how to <a href="http://www.oracle.com/technetwork/java/javase/documentation/cve-2014-3566-2342133.html">prevent Java applications from using SSL v3.0 in Java SE</a> in all the situations where Java is used. 
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr />
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h5 class="sub">Background</h5>
+
+<p>
+The POODLE vulnerability (<a href="http://www.oracle.com/technetwork/topics/security/poodlecve-2014-3566-2339408.html">CVE-2014-3566</a>) exposed a severe flaw in the Secure Socket Layer (SSL) v3 protocol. The SSLv3 protocol is no longer recommended and has been disabled for use in the Java Runtime Environment as noted above.  Users who absolutely need to re-enable SSLv3 should refer to the appropriate <a href="#relnotes">Release Notes</a>. 
+</p>
+
+<p>
+Most users however only use Java in the browser (Applets and WebStart). Below are simpler instructions on how to check if SSL 3.0 is enabled (and how to disable it).</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<h4>Disable SSLv3 for Applets and WebStart</h4>
+<p>
+The Oracle Java implementations of Plugin and WebStart can be configured using the Java Control Panel.</p>
+<p>
+Under the <b>Advanced</b> tab, <b>Advanced Security Settings</b> section, deselect all SSL protocols/format leaving only TLS enabled as shown below (Starting with the January 20, 2015 release, SSLv3 no longer appears as a selectable option).
+</p>
+<p>
+<strong>Note</strong>: Changes done through the Control Panel while a browser is open will take effect only after the browser is restarted. Java WebStart Applications must also be restarted for changes to take effect.
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<p>
+<em>Java Control Panel - Versions prior to 8u31, 7u75 and 6u91</em><br>
+<img alt="Java Control Panel deselect SSLv3 option" class="ctralign" src="../../../ga/images/en/sslv3.png%3bfilename_%3dUTF-8%27%27sslv3.png" />
+</p>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<!-- no bodytext --><hr>
+
+
+
+
+			
+		
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				<span class="bodytext">
+			
+		
+				
+		
+			
+		
+
+
+
+
+
+
+
+
+
+
+<span class="titleblack">RELATED INFORMATION</span>
+<br /><br />	
+<p>
+More information on the January 2015 Critical Patch Update release can be found in the appropriate release notes.
+</p>
+<ul>
+<li>Java 8 Update 31 (<a href="http://www.oracle.com/technetwork/java/javase/8u-relnotes-2225394.html" name="relnotes">OTN release notes</a>)</li>
+<li>Java 7 Update 75 (<a href="http://www.oracle.com/technetwork/java/javase/7u-relnotes-515228.html">OTN release notes</a>)</li>
+<li>Java 6 Update 91 (<a href="http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html">OTN release notes</a>)</li>
+</ul>
+
+
+
+
+			
+		
+			
+				</span>
+			
+		
+	
+	
+
+	 
+	
+		
+	
+	
+		<hr>
+		<p><b>You might also be interested in:</b></p>
+		<ul class="bluearrows">
+			
+		        
+		        
+		         
+				<li>
+					
+
+
+
+	
+	
+	
+		
+		
+	<!--  Begin /jArticle_C/Render-Link.jsp -->
+	
+	
+	
+    
+	
+	
+	
+		 
+		 
+	
+	<a href='win_controlpanel.html'>Where is the Java Control Panel on Windows? </a>
+	<!--  End /jArticle_C/Render-Link.jsp -->
+
+	
+	
+	
+
+				</li>
+			
+		        
+		        
+		         
+				<li>
+					
+
+
+
+	
+	
+	
+		
+		
+	<!--  Begin /jArticle_C/Render-Link.jsp -->
+	
+	
+	
+    
+	
+	
+	
+		 
+		 
+	
+	<a href='mac_controlpanel.html'>Where is the Java Control Panel on Mac?</a>
+	<!--  End /jArticle_C/Render-Link.jsp -->
+
+	
+	
+	
+
+				</li>
+				
+		</ul>
+		<br/><br/>
+	
+	 	
+	
+	</div><!-- /jvc0w2  -->
+	</div><!-- /jvc0w1 clearfix -->
+		
+	
+	
+		
+		<div class="jvcs0 clearfix">
+	
+		
+		
+		
+		
+			 
+			 
+		
+	
+		<div class="spsidebar">	
+		<div class="spheader"><a href='index.html'>Help Resources</a></div>
+		<ul>
+		
+		
+			
+	      		
+	   		
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="index_installing.html">Installing Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li id="olderVersions"><a href="https://java.com/en/download/faq/remove_olderversions.xml">Remove Older Versions</a></li>
+						
+										
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="disable_browser.html">Disable Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+							<li><a href="index_using.html"><b>Using Java</b></a></li>
+						
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_general.xml">General Questions</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/faq/index_mobile.xml">Mobile Java</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/security/">Security</a></li>
+						
+					
+				
+			
+		        
+				
+				
+				
+					 
+					 
+				
+				
+								
+				
+				
+					
+						
+						
+							<li><a href="https://java.com/en/download/support.jsp">Support Options</a></li>
+						
+					
+				
+				
+			
+				
+					
+		</ul>
+		</div>
+		<br>
+		
+	
+			
+		
+			
+				
+					
+					
+									
+				 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+<!-- BEGIN: jWidget_C/Raw-HTML/Display -->
+ 
+
+
+
+	 
+	 
+
+<a href="http://www.prestoexperts.com/lp/java-help-3/?BanID=22489" target="_top">
+	
+	
+	
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+
+	
+
+
+	<img src="../../../ga/images/liveperson_banner_2014.jpg%3bfilename_%3dUTF-8%27%27liveperson_banner_2014.jpg" alt="Find expert help on Java installation and setup"  width="170"  height="134" />
+	
+</a>
+<br />
+
+<!-- END: jWidget_C/Raw-HTML/Display -->
+
+				
+	
+	
+
+
+
+
+
+			
+		
+		
+		
+			
+		
+			
+	
+		</div><!--  /jvcs0 clearfix -->
+		</div><!-- /jvc0 -->
+		
+	
+	
+		
+		
+			
+	 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+				
+			  	
+				
+					
+				
+			
+		
+		
+		
+			
+			
+			
+	<!-- BEGIN: jWidget_C/Footer/Display -->
+	
+	
+	
+	
+		 
+		 
+	
+	<div class="jvf0">
+		<div class="jvf0">
+
+<p>
+<a href="https://java.com/en/selectlanguage.jsp" title="Select Language">Select Language</a>
+| <a href="https://java.com/en/about/" title="About Java">About Java</a>
+| <a href="https://java.com/en/download/support.jsp" title="Support">Support</a>
+| <a href="https://java.com/en/download/faq/develop.xml" title="Developers">Developers</a>
+| <a href="https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23" onclick="return popFeedback('https://ora-java.custhelp.com/ci/documents/detail/5/2142/12/dc6484bd4764542e486ad251ccb32be5f2e9be23');" id="feedback-link" title="Feedback">Feedback</a>
+<br />
+  <a href="https://www.oracle.com/html/privacy.html" title="Privacy">Privacy</a> 
+|&nbsp;<a><span id='teconsent'></span></a>&nbsp;
+| <a href="https://www.oracle.com/html/terms.html" title="Terms of Use">Terms of Use</a>
+| <a href="https://www.oracle.com/html/3party.html" title="Trademarks">Trademarks</a>
+| <a href="https://java.com/en/about/disclaimer.jsp" title="Disclaimer">Disclaimer</a>
+</p>
+<a href="https://www.oracle.com/" class="jvsun0">Oracle</a>
+</div>
+
+	</div>
+	<!-- END: jWidget_C/Footer/Display -->
+
+				
+	
+	
+
+
+
+
+
+	
+	
+	
+		
+			<!--[if gte IE 6]><!-->
+			<script src="../../../ga/js/global.js%3bfilename_%3dUTF-8%27%27global.js" type="text/javascript" charset="utf-8"></script>
+			<!-- <![endif]-->
+			
+			
+		
+	
+	
+	
+		
+		
+			
+				
+			
+			
+		
+		<script language="JavaScript">
+		<!--
+			var s_channel="javac:Support:Help";
+			var s_pageName="javac:Support:Help:disable_sslv3.xml";
+			var s_prop19="en_javac_Support_Help_disable_sslv3.html";
+			var s_charSet="UTF-8";
+		//-->
+		</script>
+		<script language="JavaScript" src="../../../ga/js/s_code_remote.js%3bfilename_%3dUTF-8%27%27s_code_remote.js"></script>
+		<script>
+			userAgent = navigator.userAgent;
+			userAgent = userAgent == null ? "" : userAgent.toLowerCase();
+			
+			if (userAgent.indexOf('mac') != -1){
+				document.getElementById("olderVersions").style.display = "none"
+			}
+		</script>
+	
+		
+	
+</body>
+
+<!-- Mirrored from java.com/en/download/help/disable_sslv3.xml?printFriendly=true by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Mar 2019 09:13:57 GMT -->
+</html>
+
+
